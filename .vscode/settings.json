@@ -9,6 +9,9 @@
         "junit-jupiter-api-5.8.2.jar",
         "c:\\Users\\sreen\\OneDrive\\Desktop\\DSA PREP\\Testing\\TESTING MAVEN API\\FINAL APP\\lib\\hamcrest-2.2.jar",
         "c:\\Users\\sreen\\OneDrive\\Desktop\\DSA PREP\\Testing\\TESTING MAVEN API\\FINAL APP\\lib\\junit-4.12.jar",
-        "c:\\Users\\sreen\\OneDrive\\Desktop\\DSA PREP\\Testing\\TESTING MAVEN API\\FINAL APP\\lib\\junit-jupiter-api-5.8.2.jar"
+        "c:\\Users\\sreen\\OneDrive\\Desktop\\DSA PREP\\Testing\\TESTING MAVEN API\\FINAL APP\\lib\\junit-jupiter-api-5.8.2.jar",
+        "Test/lib/hamcrest-2.2.jar",
+        "Test/lib/junit-4.12.jar",
+        "Test/lib/junit-jupiter-api-5.8.2.jar"
     ]
 }
