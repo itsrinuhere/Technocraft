@@ -1,0 +1,14 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\sreen\\OneDrive\\Desktop\\DSA PREP\\Testing\\junit-4.12.jar",
+        "c:\\Users\\sreen\\OneDrive\\Desktop\\DSA PREP\\Testing\\junit-jupiter-api-5.8.2.jar",
+        "c:\\Users\\sreen\\OneDrive\\Desktop\\DSA PREP\\Testing\\hamcrest-2.2.jar",
+        "hamcrest-2.2.jar",
+        "junit-4.12.jar",
+        "junit-jupiter-api-5.8.2.jar",
+        "c:\\Users\\sreen\\OneDrive\\Desktop\\DSA PREP\\Testing\\TESTING MAVEN API\\FINAL APP\\lib\\hamcrest-2.2.jar",
+        "c:\\Users\\sreen\\OneDrive\\Desktop\\DSA PREP\\Testing\\TESTING MAVEN API\\FINAL APP\\lib\\junit-4.12.jar",
+        "c:\\Users\\sreen\\OneDrive\\Desktop\\DSA PREP\\Testing\\TESTING MAVEN API\\FINAL APP\\lib\\junit-jupiter-api-5.8.2.jar"
+    ]
+}
