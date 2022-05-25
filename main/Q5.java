@@ -13,4 +13,3 @@ public class Q5 {
         return new int[] {one,two} ;
     }
 }
-//addition
