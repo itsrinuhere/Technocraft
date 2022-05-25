@@ -1,14 +1,17 @@
 package main;
 public class Q1 {
-    public int add(int a,int b){
-        return a+b;
+    
+    public int sumOfDiagnal(int[][] arr){
+        int left=0,right=0;
+    for(int i=0;i<arr.length;i++){
+        for(int j=0;j<arr.length;j++){
+        if(i == j){
+            left+=arr[i][j];
+        }
+        if((i+j) == (arr.length-1))
+        right += arr[i][j];
+        }
     }
-}//PARTICIPENT BOARD 2
-/*
-Question paradigmn will go HERE.
-check a number is special or not. 
-(Special is a number which is  equal to the sum of factorial of each digit of the given number).
-Difficulty: EASY
-Test case 1 
-input : 
-*/
+    return Math.abs(right+left);
+    }
+}
