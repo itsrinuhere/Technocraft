@@ -1,5 +1,8 @@
 package Test;
-import org.junit.runner.Result;  
+import org.junit.runner.Result;
+
+import javax.swing.JOptionPane;
+
 import org.junit.runner.JUnitCore;  
 import org.junit.runner.notification.Failure;
 
@@ -12,11 +15,15 @@ public class Q {
     public Q(){}
     public void question1(){
         Result result = JUnitCore.runClasses(Q1Test.class);  
-        System.out.println("QUESTION 1 with 10 TEST CASE's");
+        JOptionPane.showMessageDialog(null,"QUESTION 1 with 10 TEST CASE's");
+       // System.out.println("QUESTION 1 with 10 TEST CASE's");
         for (Failure fail : result.getFailures()) {  
-           System.out.println(fail.toString()+"\n");  
-        }          
-        System.out.println(result.wasSuccessful());  
+         JOptionPane.showMessageDialog(null,"ALERT","Not passed "+fail.toString(),JOptionPane.WARNING_MESSAGE);
+       //  System.out.println(fail.toString()+"\n");  
+        }       
+        JOptionPane.showMessageDialog(null, "Successfully passed all the test cases \n ->"+result.wasSuccessful(), "successfully",
+        JOptionPane.INFORMATION_MESSAGE);   
+       // System.out.println();  
      }
      public void question2(){
         Result result = JUnitCore.runClasses(Q2Test.class); 
