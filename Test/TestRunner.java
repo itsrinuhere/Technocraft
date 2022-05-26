@@ -3,10 +3,10 @@ import javax.swing.*;
 public class TestRunner{  
  static JFrame f=new JFrame(); 
   void select(){
-    Object[] options1 = { "question 1", "question 2",
-                "question 3","question 4","question 5" };
+    Object[] options1 = { "Question 1", "Question 2",
+                "Question 3","Question 4","Question 5" };
                 JPanel panel = new JPanel();
-                panel.add(new JLabel("select any one option"));
+                panel.add(new JLabel("select any one option\n 1.sum of Diagnal with 2D Array\n2.sum of arithmatic operation's"));
   int input = JOptionPane.showOptionDialog(f,
   panel,"BUGG BIZZ .", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE,
   null, options1, null); 
@@ -35,13 +35,14 @@ public class TestRunner{
   select();
  }
   }
-
-    public static void main(String[] args){
-     try{
+   public static void main(String[] args){
+    
+         try{
        new TestRunner().select(); 
        System.exit(0);
      }catch(Exception ex){
       JOptionPane.showMessageDialog(f,ex.toString(),"Alert",JOptionPane.WARNING_MESSAGE);
-     }   
+     }  
+    
    }  
 }
