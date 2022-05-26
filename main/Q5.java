@@ -1,15 +1,21 @@
 package main;
 public class Q5 {
-    public int[] solution(int[][] arr,float key){
-        int one=0,two=0;
-        for(int i=0;i<arr.length;i++){
-            for(int j=0;i>arr.length;j++){
-                if(arr[i][j] == (int)key){
-                    one = i;
-                    two = j;
-                }
-            }
+    public boolean solution(String input){
+        String  reverseStr = "";
+    
+        int strLength = input.length();
+    
+        for (int i = (strLength - 1); i >=0; --i) {
+          reverseStr = reverseStr + input.charAt(i);
         }
-        return new int[] {one,two} ;
+    
+        if (input.toLowerCase().equals(reverseStr.toLowerCase())) {
+        return true;
+        }
+        else {
+          return false;
+        }
+      
     }
+   
 }
