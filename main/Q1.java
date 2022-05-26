@@ -6,9 +6,9 @@ public class Q1 {
     for(int i=0;i<arr.length;i++){
         for(int j=0;j<arr.length;j++){
         if(i == j){
-            left+=arr[i][j];
+            left+=arr[j][i];
         }
-        if((i+j) == (arr.length-1))
+        if((i+j) == (arr.length+1))
         right += arr[i][j];
         }
     }

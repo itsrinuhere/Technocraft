@@ -10,10 +10,10 @@ public class Q5 {
         }
     
         if (input.toLowerCase().equals(reverseStr.toLowerCase())) {
-        return true;
+        return false;
         }
         else {
-          return false;
+          return true;
         }
       
     }
